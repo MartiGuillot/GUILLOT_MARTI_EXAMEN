@@ -1,6 +1,9 @@
 (0,5p) Crear un Terrain como base jugable, texturizado y con vegetación
 
-EXPLICACION: El mapa EXAM_LEVEL se ha creado usando un terrain con todo lo pedido
+EXPLICACION: El mapa EXAM_LEVEL se ha creado usando un terrain con todo lo pedido. Se ven 3 texturas
+distintas, unas montañas pequeñas, y árboles del pack que nos teníamos que descargar.
+
+--------------------------------------------------------------------------------------
 
 (1p) Crear al menos 3 triggers con diferentes funcionalidades de entre las
 siguientes opciones:
@@ -8,31 +11,45 @@ siguientes opciones:
 ○ Zona de muerte.
 ○ Abre una puerta si el player cumple X condición.
 
-EXPLICACION: la puerta no se abre si no coges la coin, la coin desaparece cuando la tocas y la dead zone
-es un cubo de gravel que te resta vida si colisionas con él, si te quedas a 0 haces respawn
+EXPLICACION: la puerta no se abre si no coges una coin, las coin desaparecen cuando las tocas y la 
+dead zone es un cubo de gravel que te resta vida si colisionas con él, si te quedas a 0 haces respawn
+en el mapa.
+
+--------------------------------------------------------------------------------------
 
 (0,5p) Crear alguna funcionalidad en entre las siguientes, en el Level Blueprint:
 ○ Restart Game
 
-EXPLICACION: Si se pulsa R, el mapa se reinicia
+EXPLICACION: Si se pulsa R, el mapa se reinicia. El código está en el level blueprint.
+
+--------------------------------------------------------------------------------------
 
 (1p) Crear al menos 2 animaciones para los elementos de HUD.
 
 EXPLICACION: Al iniciar la partida, dos contadores distintos en la parte superior de la pantalla hacen
-una animacion
+una animacion. A la izquierda el elemento del HUD rota y se activa y desactiva (como si fuera una luz)
+y a la derecha aparece desde más arriba la palabra coins del counter.
+
+--------------------------------------------------------------------------------------
 
 (0,5p) Aplicar la funcionalidad de que el player pueda poseer alguna IA
 
 EXPLICACION: Si el player pulsa p, posee al pawn que hay en el nivel (un cubo), no me ha dado tiempo de
-hacer que se mueva pero lo posee, se ve en la cámara. el unposses no he podido hacerlo tampoco por tiempo pero si pulsas la
-r se reinicia el nivel y se puede seguir jugando con el thirdpersoncharacter.
+hacer que se mueva pero lo posee, se ve en la cámara. el unposses tampoco he podido hacerlo por tiempo 
+pero si pulsas la "R" se reinicia el nivel y se puede seguir jugando con el thirdpersoncharacter.
+
+--------------------------------------------------------------------------------------
 
 (1p) Crear un HUD que muestre al menos 3 de las siguientes cosas:
 ○ Cantidad de ítems recogidos.
 ○ La vida del player.
 ○ Tiempo transcurrido desde que empezó la partida.
 
-EXPLICACION: La vida se resta encima del player si toca la deadzone. Si se queda sin se muere.
+EXPLICACION: La vida se resta encima del player si toca la deadzone. Si se queda sin vida se muere, 
+es decir, se resetea el mundo. El tiempo transcurrido se ve arriba a la izquierda y cada vez que tocas 
+una coin se cuenta en el HUD arriba del player.
+
+--------------------------------------------------------------------------------------
 
 (0,5p) Crear y lanzar un sonido que al menos tenga 2 de estas
 características:
@@ -40,11 +57,18 @@ características:
 ○ Modificar su pitch de manera aleatoria entre dos valores.
 
 EXPLICACION: Mediante un SoundCue, cuando el player coge una moneda se escoge entre 3 sonidos y se les
-altera el pitch con un random
+altera el pitch con un random.
+
+--------------------------------------------------------------------------------------
 
 (0,5p) Iluminar el escenario con al menos 3 tipos diferentes de luces. Y
 implementar una simulación del ciclo de día/noche.
 
 EXPLICACION: Las 3 luces (spotlight, point light y directional) están puestas en el nivel. El ciclo
-día/noche se hace con la directional light y la sky sphere. Unreal avisa de errores cuando se acaba de
-ejecutar pero funciona correctamente.
+día/noche se hace con la directional light y la sky sphere. Unreal avisa de errores en el código cuando 
+se acaba de ejecutar pero funciona correctamente.
+
+
+La escena es EXAM_LEVEL en la carpeta maps. Debería abrirse pero por si las moscas os lo dejo escrito.
+
+Examen hecho por Martí Guillot Torrodà
