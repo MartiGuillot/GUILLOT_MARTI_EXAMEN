@@ -14,7 +14,7 @@ es un cubo de gravel que te resta vida si colisionas con él, si te quedas a 0 h
 (0,5p) Crear alguna funcionalidad en entre las siguientes, en el Level Blueprint:
 ○ Restart Game
 
-EXPLICACION: SI SE PULSA R, EL MAPA SE REINICIA
+EXPLICACION: Si se pulsa R, el mapa se reinicia
 
 (1p) Crear al menos 2 animaciones para los elementos de HUD.
 
@@ -34,3 +34,10 @@ r se reinicia el nivel y se puede seguir jugando con el thirdpersoncharacter.
 
 EXPLICACION: La vida se resta encima del player si toca la deadzone. Si se queda sin se muere.
 
+(0,5p) Crear y lanzar un sonido que al menos tenga 2 de estas
+características:
+○ Que cuando se lance no siempre suene el mismo clip.
+○ Modificar su pitch de manera aleatoria entre dos valores.
+
+EXPLICACION: Mediante un SoundCue, cuando el player coge una moneda se escoge entre 3 sonidos y se les
+altera el pitch con un random
