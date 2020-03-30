@@ -11,9 +11,9 @@ siguientes opciones:
 ○ Zona de muerte.
 ○ Abre una puerta si el player cumple X condición.
 
-EXPLICACION: la puerta no se abre si no coges una coin, las coin desaparecen cuando las tocas y la 
-dead zone es un cubo de gravel que te resta vida si colisionas con él, si te quedas a 0 haces respawn
-en el mapa.
+EXPLICACION: la puerta no se abre si no coges una coin, las coins desaparecen cuando las tocas y la 
+dead zone es un cubo de gravel que te resta vida si colisionas con él, si te quedas con la vida a cero
+haces respawn en el mapa.
 
 --------------------------------------------------------------------------------------
 
@@ -34,9 +34,10 @@ y a la derecha aparece desde más arriba la palabra coins del counter.
 
 (0,5p) Aplicar la funcionalidad de que el player pueda poseer alguna IA
 
-EXPLICACION: Si el player pulsa p, posee al pawn que hay en el nivel (un cubo), no me ha dado tiempo de
-hacer que se mueva pero lo posee, se ve en la cámara. el unposses tampoco he podido hacerlo por tiempo 
-pero si pulsas la "R" se reinicia el nivel y se puede seguir jugando con el thirdpersoncharacter.
+EXPLICACION: Si el player pulsa p, posee al pawn que hay en el nivel (un cubo a la izquierda del player 
+start), no me ha dado tiempo de hacer que se mueva pero lo posee, se ve como la cámara se pone en la 
+posición que tocaría, detrás del pawn). el unposses tampoco he podido hacerlo por tiempo  pero si pulsas
+la "R" se reinicia el nivel y se puede seguir jugando con el ThirdPersonCharacter.
 
 --------------------------------------------------------------------------------------
 
