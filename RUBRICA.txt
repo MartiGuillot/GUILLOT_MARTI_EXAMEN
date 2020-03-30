@@ -24,7 +24,7 @@ una animacion
 (0,5p) Aplicar la funcionalidad de que el player pueda poseer alguna IA
 
 EXPLICACION: Si el player pulsa p, posee al pawn que hay en el nivel (un cubo), no me ha dado tiempo de
-hacer que se mueva pero lo posee. el unposses no he podido hacerlo tampoco por tiempo pero si pulsas la
+hacer que se mueva pero lo posee, se ve en la cámara. el unposses no he podido hacerlo tampoco por tiempo pero si pulsas la
 r se reinicia el nivel y se puede seguir jugando con el thirdpersoncharacter.
 
 (1p) Crear un HUD que muestre al menos 3 de las siguientes cosas:
@@ -41,3 +41,10 @@ características:
 
 EXPLICACION: Mediante un SoundCue, cuando el player coge una moneda se escoge entre 3 sonidos y se les
 altera el pitch con un random
+
+(0,5p) Iluminar el escenario con al menos 3 tipos diferentes de luces. Y
+implementar una simulación del ciclo de día/noche.
+
+EXPLICACION: Las 3 luces (spotlight, point light y directional) están puestas en el nivel. El ciclo
+día/noche se hace con la directional light y la sky sphere. Unreal avisa de errores cuando se acaba de
+ejecutar pero funciona correctamente.
